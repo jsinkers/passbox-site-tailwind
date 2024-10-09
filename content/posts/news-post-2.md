@@ -1,6 +1,6 @@
 ---
-title: "News Post 2"
-date: 2022-04-18T11:10:36+08:00
+title: "Do minimum passing distance laws change driver behaviour?"
+date: 2024-10-09T12:10:36+08:00
 draft: false
 language: en
 featured_image: ../assets/images/featured/featured-img-placeholder.png
