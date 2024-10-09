@@ -1,10 +1,11 @@
-baseURL: 'https://jsinkers.github.io/passbox-site-tailwind'
+baseURL: 'https://jsinkers.github.io/passbox-site-tailwind/'
 title: PassBox
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
+relativeURLs: false
 canonifyURLs: false
 paginate: 9
 darkmode_js:
@@ -47,7 +48,7 @@ markup:
 
 params:
   author: James Sinclair
-  authorimage: /assets/images/global/passbox-logo.png
+  authorimage: ../assets/images/global/author.webp
   og_image: /images/passbox.JPG
   moto: "Cycling Safety Insights"
   description: ""
