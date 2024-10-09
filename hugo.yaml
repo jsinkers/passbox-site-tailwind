@@ -1,11 +1,11 @@
-baseURL: ''
+baseURL: 'https://jsinkers.github.io/passbox-site-tailwind'
 title: PassBox
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
-canonifyURLs: true
+canonifyURLs: false
 paginate: 9
 darkmode_js:
   - assets/js/darkmode.js
@@ -46,8 +46,8 @@ markup:
       xhtml: false
 
 params:
-  author: Nusser Studios
-  authorimage: ../assets/images/global/author.webp
+  author: James Sinclair
+  authorimage: /assets/images/global/passbox-logo.png
   og_image: /images/passbox.JPG
   moto: "Cycling Safety Insights"
   description: ""
@@ -56,7 +56,7 @@ params:
 
   p1:
     heading: "What we do"
-    image: "images/pages/bike-roundabout.png"
+    image: "/images/pages/bike-roundabout.png"
     content:
       - text: "We use purpose-built hardware and software to ..."
       - text: "Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eroserat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna."
