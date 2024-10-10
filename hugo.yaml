@@ -59,16 +59,16 @@ params:
     heading: "What we do"
     image: "/images/pages/bike-roundabout.png"
     content:
-      - text: "We use purpose-built hardware and software to ..."
-      - text: "Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eroserat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna."
-      - text: "Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra."
+      - text: "We use advanced, purpose-built technology to pinpoint dangers for cyclists on roads around Australia."
+      - text: "We've conducted the largest passing distance study in the world, and we're using the data to make cycling safer."
+      - text: "From bicycle lane width to speed limits, we analyse the factors that make streets safer."
   p2:
     heading: "See the hotspots"
     image: "images/pages/map-hotspots.png"
     content:
-      - text: "The PassBox map shows you see which roads are most dangerous. You can see watch of the passes we've recorded on each road."
-  #p3:
-  #  heading: "Backed by world-renowned investors"
+      - text: "Our map shows which roads are most dangerous for cyclists. You can watch videos of the tens of thousands of passes we've recorded on roads in Victoria and Western Australia."
+  p3:
+    heading: "Backed by world-renowned investors"
   #  content:
   #    - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
   #  links:
@@ -86,7 +86,7 @@ params:
   p4:
     heading: "Posts"
     content:
-      - text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed."
+      - text: "Read more about our findings"
   p5:
     heading: "Contact us"
     content:
