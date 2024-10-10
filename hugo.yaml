@@ -87,6 +87,10 @@ params:
     heading: "Posts"
     content:
       - text: "Read more about our findings"
+  p6:
+    heading: "News articles"
+    content:
+      - text: "See what the media is saying about us"
   p5:
     heading: "Contact us"
     content:

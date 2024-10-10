@@ -10,6 +10,7 @@ author: TailBliss
 authorimage: /assets/images/global/passbox-logo.png
 categories: Blog
 tags: Blog
+type: post
 ---
 __Advertisement :smile:__
 

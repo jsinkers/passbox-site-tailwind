@@ -10,6 +10,7 @@ author: Jonathan Nolan
 authorimage: /assets/images/global/passbox-logo.png
 categories: News
 tags: News
+type: post
 ---
 __Advertisement :smile:__
 
