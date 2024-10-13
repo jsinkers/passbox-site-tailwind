@@ -67,6 +67,8 @@ params:
     image: "images/pages/map-hotspots.png"
     content:
       - text: "Our map shows which roads are most dangerous for cyclists. You can watch videos of the tens of thousands of passes we've recorded on roads in Victoria and Western Australia."
+    button: "View the map"
+    url: "https://passbox.org/map"
   #p3:
   #  heading: "Backed by world-renowned investors"
   #  content:
