@@ -137,8 +137,20 @@ menu:
     #  weight: 40
     - identifier: contact
       name: Contact
-      url: /contact/
+      url: "mailto:passingdistancestudy@gmail.com"
       weight: 50
+    - identifier: map
+      name: Map
+      url: http://passbox.org/map
+      weight: 60
+    - identifier: blog
+      name: Blog
+      url: /categories/blog/
+      weight: 70
+    - identifier: news
+      name: News
+      url: /categories/news/
+      weight: 80
   categories:
     - identifier: prose
       name: Prose
