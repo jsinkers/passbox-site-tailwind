@@ -8,8 +8,8 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, od
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero. Vestibulum vel convallis felis. Ut finibus lorem vestibulum lobortis rhoncus.
 author: PassBox
 authorimage: /images/passbox-logo.png
-categories: blog
-tags: blog
+categories: Posts
+tags: Posts
 type: post
 ---
 __Advertisement :smile:__

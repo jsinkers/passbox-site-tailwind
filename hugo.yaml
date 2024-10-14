@@ -143,9 +143,9 @@ menu:
       name: Map
       url: http://passbox.org/map
       weight: 60
-    - identifier: blog
-      name: Blog
-      url: /categories/blog/
+    - identifier: Posts
+      name: Posts
+      url: /categories/Posts/
       weight: 70
     - identifier: news
       name: News
@@ -184,9 +184,9 @@ menu:
   #  #  name: About
   #  #  url: /about/
   #  #  weight: 10
-  #  #- identifier: blog
-  #  #  name: Blog
-  #  #  url: /categories/blog/
+  #  #- identifier: Posts
+  #  #  name: Posts
+  #  #  url: /categories/Posts/
   #  #  weight: 20
   #  #- identifier: news
   #  #  name: News
