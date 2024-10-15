@@ -136,21 +136,21 @@ menu:
     #  name: Dropdown
     #  weight: 40
     - identifier: contact
-      name: Contact
+      name: Contact us
       url: "mailto:passingdistancestudy@gmail.com"
       weight: 50
     - identifier: map
       name: Map
       url: http://passbox.org/map
       weight: 60
-    - identifier: Posts
-      name: Posts
-      url: /categories/Posts/
-      weight: 70
-    - identifier: news
-      name: News
-      url: /categories/news/
-      weight: 80
+    #- identifier: Posts
+    #  name: Posts
+    #  url: /categories/Posts/
+    #  weight: 70
+    #- identifier: news
+    #  name: News
+    #  url: /categories/news/
+    #  weight: 80
   categories:
     - identifier: prose
       name: Prose

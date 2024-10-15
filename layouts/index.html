@@ -1,28 +1,31 @@
 {{ define "main" }}
 <main>
-    <div class="bg-gray-200 dark:bg-gray-900">
-        <div class="max-w-screen-xl px-4 py-8 mx-auto">
-            <div class="grid items-center gap-8 mb-8 sm:mb-0 lg:gap-12 lg:grid-cols-12">
-                <div class="col-span-6 px-4 text-center sm:mb-6 lg:text-left lg:mb-0">
-                    <h1 class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white">
-                        {{ .Site.Title }}
-                    </h1>
-                    <h2 class="pb-2 text-3xl font-light text-gray-800 dark:text-gray-300 md:text-4xl">
-                        {{ .Site.Params.Moto }}
-                    </h2>
-                    <p class="max-w-xl mx-auto mb-6 font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
-                        {{ .Site.Params.Description}}
-                    </p>
-                </div>
-                <div class="col-span-6">
-                    {{ $hero := resources.GetMatch "images/pages/passbox.JPG" }}
-
-                    {{ $thumb := ($hero.Fill "400x400 webp q90") }}
-                    {{ $large := ($hero.Fill "576x576 webp q90") }}
-
-                    <img srcset="
-                        {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
-                        {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.RelPermalink }}" width="100%" height="" alt="TailBliss Hero" class="w-full max-w-xl mx-auto rounded-lg" />
+    <div class="relative w-full overflow-hidden bg-gray-900 dark:bg-gray-900 max-h-[75vh]">
+        <!-- Background Image -->
+        <!-- <div class="absolute inset-0 w-full h-full flex items-center justify-center"> -->
+        <div class="absolute inset-0 w-full flex items-center">
+            {{ $p2image := resources.GetMatch "images/pages/passbox.JPG" }}
+            {{ with $p2image }}
+            {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
+                <img src="{{ .RelPermalink }}"
+                 alt="PassBox - Cycling Safety Insights" class="w-full h-full object-cover" />
+            {{ end }}
+            {{ end }}
+        </div>
+        <!-- Overlay content-->
+        <div class="relative z-10 p-8 min-h-[60vh]">
+            <!-- Dark gradient overlay -->
+            <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/30 to-transparent"></div>
+            <div class="absolute top-0 inset-x-0 lg:right-0 max-w-screen-xl px-4 py-8 mx-auto">
+                <div class="grid items-center gap-8 mb-8 sm:mb-0 lg:gap-12">
+                    <div class="px-4 py-4 text-center sm:mb-6 lg:text-right lg:mb-0">
+                        <h1 class="mb-2 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl text-white">
+                            {{ .Site.Title }}
+                        </h1>
+                        <h2 class="p-2 text-3xl font-light text-gray-300 md:text-4xl">
+                            {{ .Site.Params.Moto }}
+                        </h2>
+                    </div>
                 </div>
             </div>
         </div>
