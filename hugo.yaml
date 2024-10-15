@@ -57,7 +57,8 @@ params:
 
   p1:
     heading: "What we do"
-    image: "/images/pages/bike-roundabout.png"
+    image: "/images/pages/passbox-device.png"
+    image2: "/images/pages/graph.png"
     content:
       - text: "We use advanced, purpose-built technology to pinpoint dangers for cyclists on roads around Australia."
       - text: "We've conducted the largest passing distance study in the world, and we're using the data to make cycling safer."
