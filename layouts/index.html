@@ -31,18 +31,18 @@
     </div>
 
     <!-- What we do section -->
-    <div class="relative my-2 p-4">
+    <div class="relative my-2 p-8">
         <!-- Background image -->
         <div class="absolute inset-0 overflow-hidden flex items-center">
             {{ $p2image := resources.Get .Site.Params.P1.Image2 }}
             {{ with $p2image }}
             {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
-            <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="h-full md:w-full object-cover" alt="P1" loading="lazy" />
+            <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="h-full w-full object-cover" alt="P1" loading="lazy" />
 
             {{ end }}
             {{ end }}
         </div>
-        <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
+        <div class="md:mx-auto md:grid md:max-w-7xl md:grid-cols-2 md:items-start md:gap-24 md:px-8">
             <!-- Image -->
             <div class="relative w-full h-full px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:px-0 lg:py-20">
                 <div class="z-10 overflow-hidden">
