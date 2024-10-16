@@ -2,7 +2,6 @@
 <main>
     <div class="relative w-full overflow-hidden bg-gray-900 dark:bg-gray-900 max-h-[75vh]">
         <!-- Background Image -->
-        <!-- <div class="absolute inset-0 w-full h-full flex items-center justify-center"> -->
         <div class="absolute inset-0 w-full flex items-center">
             {{ $p2image := resources.GetMatch "images/pages/passbox.JPG" }}
             {{ with $p2image }}
@@ -45,7 +44,6 @@
         </div>
         <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
             <!-- Image -->
-            <!-- <div class="relative sm:py-8 lg:py-0"> -->
             <div class="relative w-full h-full px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:px-0 lg:py-20">
                 <div class="z-10 overflow-hidden">
                     {{ $p1image := resources.Get .Site.Params.P1.Image }}
@@ -56,7 +54,6 @@
                     {{ end }}
                 </div>
             </div>
-            <!-- </div> -->
             <!-- Content -->
             <div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0">
                 <div class="md:pt-12 sm:pt-6 lg:pt-20">
@@ -119,46 +116,9 @@
             </div>
         </div>
 
-        <!-- Optional: Overlay a dark gradient on the image for better readability -->
-        <!-- <div class="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-60"></div> -->
+        <!-- Overlay a dark gradient on the image for better readability -->
         <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-60"></div>
     </div>
-
-    <!-- Sponsors section -->
-    <!-- <div class="max-w-md px-4 mx-auto md:pt-24 md:pb-16 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-        <div class="lg:grid lg:grid-cols-2 lg:items-center lg:gap-24">
-            <div class="mt-12 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
-                {{ range .Site.Params.P3.Logos }}
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-gray-50 dark:bg-gray-900/10">
-                    {{ if .image }}
-                    {{ $sponsor := resources.Get .image }}
-                    <img src="{{ $sponsor.RelPermalink }}" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
-                    {{ else }}
-                    {{ $sponsor := resources.Get "images/global/sample-logo.svg" }}
-                    <img src="{{ $sponsor.RelPermalink }}" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
-                    {{ end }}
-                </div>
-                {{ end }}
-            </div>
-            <div>
-                <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
-                    {{ .Site.Params.P3.Heading }}
-                </h2>
-                {{ range .Site.Params.P3.Content }}
-                <p class="max-w-3xl mt-6 text-lg leading-7 text-gray-900 dark:text-white">
-                    {{ .text }}
-                </p>
-                {{ end }}
-                {{ range .Site.Params.P3.Links }}
-                <div class="my-6">
-                    <a href="{{ .url }}" class="text-base font-medium text-primary-400 dark:text-primary-100">
-                        {{ .text }}&nbsp&rarr;
-                    </a>
-                </div>
-                {{ end }}
-            </div>
-        </div>
-    </div> -->
 
     <!-- Posts section -->
     <div class="relative px-1 pt-8 pb-4 bg-transparent lg:px-8 lg:pt-12 lg:mb-4 md:mt-12">
@@ -270,9 +230,6 @@
                                     <a href="{{ .Params.externalUrl}}" class="block mt-2 text-xl lg:text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
                                         {{ .Title }}
                                     </a>
-                                    <!-- <p class="mt-3 text-base text-gray-900 dark:text-gray-300">
-                                        {{ .Params.summary }}
-                                    </p> -->
                                 </div>
                                 <!-- Tags and author -->
                                 <div class="pt-6 mt-auto">
@@ -329,10 +286,6 @@
                         {{ end }}
                     </div>
                     <form action="{{ .Site.Params.P5.Action }}" class="mt-12 sm:mx-auto sm:flex sm:max-w-lg justify-center">
-                        <!--<div class="flex-1 min-w-0">
-                            <label for="cta-email" class="sr-only">{{ .Site.Params.P5.Label }}</label>
-                            <input id="cta-email" type="email" class="block w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500" placeholder="{{ .Site.Params.P5.Placeholder }}">
-                        </div>-->
                         <div class="mt-4 sm:mt-0 sm:ml-3">
                             <button type="submit" class="block w-full px-5 py-3 text-base font-medium text-white bg-gray-900 border border-transparent rounded-md shadow hover:bg-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 sm:px-10">
                                 {{ .Site.Params.P5.Button }}

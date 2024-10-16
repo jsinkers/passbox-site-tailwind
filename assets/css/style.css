@@ -2577,29 +2577,12 @@ video {
   right: 0px;
 }
 
-.inset-y-0 {
-  top: 0px;
-  bottom: 0px;
-}
-
-.left-1\/2 {
-  left: 50%;
-}
-
 .right-0 {
   right: 0px;
 }
 
-.right-1\/2 {
-  right: 50%;
-}
-
 .top-0 {
   top: 0px;
-}
-
-.top-8 {
-  top: 2rem;
 }
 
 .z-10 {
@@ -2612,10 +2595,6 @@ video {
 
 .z-50 {
   z-index: 50;
-}
-
-.z-40 {
-  z-index: 40;
 }
 
 .col-span-1 {
@@ -2659,10 +2638,6 @@ video {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-}
-
-.-ml-3 {
-  margin-left: -0.75rem;
 }
 
 .-mt-72 {
@@ -2785,10 +2760,6 @@ video {
   height: 100%;
 }
 
-.h-80 {
-  height: 20rem;
-}
-
 .max-h-12 {
   max-height: 3rem;
 }
@@ -2799,10 +2770,6 @@ video {
 
 .min-h-\[60vh\] {
   min-height: 60vh;
-}
-
-.min-h-\[25vh\] {
-  min-height: 25vh;
 }
 
 .w-0 {
@@ -3021,15 +2988,6 @@ video {
 
 .rounded-md {
   border-radius: 0.375rem;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
-.rounded-r-3xl {
-  border-top-right-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
 }
 
 .rounded-t-lg {
@@ -3525,10 +3483,6 @@ video {
 
 .opacity-60 {
   opacity: 0.6;
-}
-
-.opacity-80 {
-  opacity: 0.8;
 }
 
 .shadow {
@@ -4384,10 +4338,6 @@ EmojiSymbols;
   color: rgb(249 250 251 / var(--tw-text-opacity));
 }
 
-.dark\:text-gray-900\/60:is(.dark *) {
-  color: rgb(17 24 39 / 0.6);
-}
-
 .dark\:text-primary-100:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(249 249 254 / var(--tw-text-opacity));
@@ -4511,20 +4461,12 @@ EmojiSymbols;
     margin-top: 1rem;
   }
 
-  .sm\:block {
-    display: block;
-  }
-
   .sm\:flex {
     display: flex;
   }
 
   .sm\:h-2\/3 {
     height: 66.666667%;
-  }
-
-  .sm\:h-full {
-    height: 100%;
   }
 
   .sm\:w-fit {
@@ -4654,16 +4596,12 @@ EmojiSymbols;
     width: auto;
   }
 
-  .md\:w-screen {
-    width: 100vw;
-  }
-
   .md\:w-full {
     width: 100%;
   }
 
-  .md\:w-\[120\%\] {
-    width: 120%;
+  .md\:w-screen {
+    width: 100vw;
   }
 
   .md\:max-w-sm {
@@ -4688,11 +4626,6 @@ EmojiSymbols;
 
   .md\:justify-between {
     justify-content: space-between;
-  }
-
-  .md\:object-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
   }
 
   .md\:px-1\.5 {
@@ -4733,33 +4666,8 @@ EmojiSymbols;
 }
 
 @media (min-width: 1024px) {
-  .lg\:absolute {
-    position: absolute;
-  }
-
-  .lg\:inset-y-0 {
-    top: 0px;
-    bottom: 0px;
-  }
-
-  .lg\:-right-8 {
-    right: -2rem;
-  }
-
-  .lg\:left-auto {
-    left: auto;
-  }
-
   .lg\:right-0 {
     right: 0px;
-  }
-
-  .lg\:right-72 {
-    right: 18rem;
-  }
-
-  .lg\:top-12 {
-    top: 3rem;
   }
 
   .lg\:mx-auto {
@@ -4785,10 +4693,6 @@ EmojiSymbols;
 
   .lg\:grid {
     display: grid;
-  }
-
-  .lg\:w-screen {
-    width: 100vw;
   }
 
   .lg\:max-w-7xl {
