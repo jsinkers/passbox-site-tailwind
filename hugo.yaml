@@ -67,7 +67,8 @@ params:
     heading: "See the hotspots"
     image: "images/pages/map-hotspots.png"
     content:
-      - text: "Our map shows which roads are most dangerous for cyclists. You can watch videos of the tens of thousands of passes we've recorded on roads in Victoria and Western Australia."
+      - text: "Our map shows which roads are most dangerous for cyclists."
+      - text: "Watch videos of the tens of thousands of passes we've recorded on roads in Victoria and Western Australia."
     button: "View the map"
     url: "http://passbox.org/map"
   #p3:
