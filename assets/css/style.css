@@ -2803,6 +2803,10 @@ video {
   max-height: 3rem;
 }
 
+.max-h-5 {
+  max-height: 1.25rem;
+}
+
 .min-h-\[60vh\] {
   min-height: 60vh;
 }
@@ -3290,6 +3294,11 @@ video {
 .py-96 {
   padding-top: 24rem;
   padding-bottom: 24rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .pb-12 {
@@ -4780,6 +4789,10 @@ EmojiSymbols;
 
   .lg\:pt-12 {
     padding-top: 3rem;
+  }
+
+  .lg\:pr-16 {
+    padding-right: 4rem;
   }
 
   .lg\:text-right {
