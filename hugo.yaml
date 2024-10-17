@@ -137,13 +137,13 @@ menu:
     #  pre: complexdropdown
     #  name: Dropdown
     #  weight: 40
-    - identifier: contact
-      name: Contact us
-      url: "mailto:passingdistancestudy@gmail.com"
-      weight: 50
     - identifier: map
       name: Map
       url: map
+      weight: 50
+    - identifier: contact
+      name: Contact us
+      url: "mailto:passingdistancestudy@gmail.com"
       weight: 60
     #- identifier: Posts
     #  name: Posts
