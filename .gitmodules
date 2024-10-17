@@ -1,0 +1,3 @@
+[submodule "static/map"]
+	path = static/map
+	url = https://github.com/jsinkers/passbox-map.git

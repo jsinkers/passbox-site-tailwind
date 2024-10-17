@@ -143,7 +143,7 @@ menu:
       weight: 50
     - identifier: map
       name: Map
-      url: http://passbox.org/map
+      url: map
       weight: 60
     #- identifier: Posts
     #  name: Posts
